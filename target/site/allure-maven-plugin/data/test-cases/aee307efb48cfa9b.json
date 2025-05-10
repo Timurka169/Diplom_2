@@ -1,0 +1,121 @@
+{
+  "uid" : "aee307efb48cfa9b",
+  "name" : "Авторизация с некорректным email",
+  "fullName" : "usertests.UserLoginBaseTest.shouldNotAuthorizeWithInvalidEmail",
+  "historyId" : "33ec8074e345f2cb097db87eb502b787",
+  "time" : {
+    "start" : 1738609728124,
+    "stop" : 1738609728497,
+    "duration" : 373
+  },
+  "description" : "Проверка, что авторизация с неверным email возвращает ошибку 401",
+  "descriptionHtml" : "<p>Проверка, что авторизация с неверным email возвращает ошибку 401</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка, что авторизация с неверным email возвращает ошибку 401",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация случайных данных пользователя",
+      "time" : {
+        "start" : 1738609728124,
+        "stop" : 1738609728124,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=null, email=null, password=null, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Создание нового пользователя",
+      "time" : {
+        "start" : 1738609728124,
+        "stop" : 1738609728340,
+        "duration" : 216
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=iZFTIvvQH, email=cbqqhnhv@yandex.ru, password=MsSTcfVqLwgpku, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Вход пользователя в систему",
+      "time" : {
+        "start" : 1738609728341,
+        "stop" : 1738609728482,
+        "duration" : 141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=iZFTIvvQH, email=uvnagznuahjogoaxmtdq@yandex.ru, password=MsSTcfVqLwgpku, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "usertests"
+  }, {
+    "name" : "testClass",
+    "value" : "usertests.UserLoginBaseTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldNotAuthorizeWithInvalidEmail"
+  }, {
+    "name" : "suite",
+    "value" : "usertests.UserLoginBaseTest"
+  }, {
+    "name" : "host",
+    "value" : "Alex"
+  }, {
+    "name" : "thread",
+    "value" : "20352@Alex.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aee307efb48cfa9b.json",
+  "parameterValues" : [ ]
+}

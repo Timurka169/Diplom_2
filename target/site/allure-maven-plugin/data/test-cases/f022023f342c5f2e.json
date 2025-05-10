@@ -1,0 +1,103 @@
+{
+  "uid" : "f022023f342c5f2e",
+  "name" : "Создание нового пользователя",
+  "fullName" : "usertests.UserCreationTest.shouldCreateUserSuccessfully",
+  "historyId" : "8cdffae0762833224bc8de2da412faec",
+  "time" : {
+    "start" : 1738609719523,
+    "stop" : 1738609719746,
+    "duration" : 223
+  },
+  "description" : "Тест проверяет успешное создание пользователя с корректными данными",
+  "descriptionHtml" : "<p>Тест проверяет успешное создание пользователя с корректными данными</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Тест проверяет успешное создание пользователя с корректными данными",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация случайных данных пользователя",
+      "time" : {
+        "start" : 1738609719523,
+        "stop" : 1738609719523,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=null, email=null, password=null, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Создание нового пользователя",
+      "time" : {
+        "start" : 1738609719523,
+        "stop" : 1738609719737,
+        "duration" : 214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=eIViuIEGu, email=mbnqihte@yandex.ru, password=mlinhNrboxkENT, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "usertests"
+  }, {
+    "name" : "testClass",
+    "value" : "usertests.UserCreationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCreateUserSuccessfully"
+  }, {
+    "name" : "suite",
+    "value" : "usertests.UserCreationTest"
+  }, {
+    "name" : "host",
+    "value" : "Alex"
+  }, {
+    "name" : "thread",
+    "value" : "20352@Alex.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f022023f342c5f2e.json",
+  "parameterValues" : [ ]
+}

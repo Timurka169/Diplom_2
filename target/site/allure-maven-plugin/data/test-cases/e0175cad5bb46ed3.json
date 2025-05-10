@@ -1,0 +1,103 @@
+{
+  "uid" : "e0175cad5bb46ed3",
+  "name" : "Создание пользователя с пустым email",
+  "fullName" : "usertests.UserCreationTest.shouldNotCreateUserWithEmptyEmail",
+  "historyId" : "5bbf4ccc1a8b50f5275097bf9c7c8757",
+  "time" : {
+    "start" : 1745855226268,
+    "stop" : 1745855226499,
+    "duration" : 231
+  },
+  "description" : "Тест проверяет, что создание пользователя с пустым email возвращает ошибку 403",
+  "descriptionHtml" : "<p>Тест проверяет, что создание пользователя с пустым email возвращает ошибку 403</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Тест проверяет, что создание пользователя с пустым email возвращает ошибку 403",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация случайных данных пользователя",
+      "time" : {
+        "start" : 1745855226268,
+        "stop" : 1745855226268,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=null, email=null, password=null, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Создание нового пользователя",
+      "time" : {
+        "start" : 1745855226268,
+        "stop" : 1745855226491,
+        "duration" : 223
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=zZDsWUMJi, email=, password=GhooAhujSgMlnT, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "usertests"
+  }, {
+    "name" : "testClass",
+    "value" : "usertests.UserCreationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldNotCreateUserWithEmptyEmail"
+  }, {
+    "name" : "suite",
+    "value" : "usertests.UserCreationTest"
+  }, {
+    "name" : "host",
+    "value" : "JR"
+  }, {
+    "name" : "thread",
+    "value" : "26692@JR.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e0175cad5bb46ed3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,193 @@
+{
+  "uid" : "477bea90358df1fd",
+  "name" : "Обновление имени пользователя",
+  "fullName" : "usertests.UserDataChangeTest.shouldUpdateUserName",
+  "historyId" : "2ded0b151703f34bbf5c8ec039cb5340",
+  "time" : {
+    "start" : 1745855231788,
+    "stop" : 1745855233892,
+    "duration" : 2104
+  },
+  "description" : "Проверяет успешное изменение имени авторизованного пользователя",
+  "descriptionHtml" : "<p>Проверяет успешное изменение имени авторизованного пользователя</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяет успешное изменение имени авторизованного пользователя",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация случайных данных пользователя",
+      "time" : {
+        "start" : 1745855231789,
+        "stop" : 1745855231789,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=null, email=null, password=null, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Создание нового пользователя",
+      "time" : {
+        "start" : 1745855231789,
+        "stop" : 1745855232133,
+        "duration" : 344
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=uhObsdGTN, email=xkgajfwu@yandex.ru, password=YuoOvAGcUtBnGk, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Вход пользователя в систему",
+      "time" : {
+        "start" : 1745855232133,
+        "stop" : 1745855232452,
+        "duration" : 319
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=uhObsdGTN, email=xkgajfwu@yandex.ru, password=YuoOvAGcUtBnGk, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Получение токена авторизации",
+      "time" : {
+        "start" : 1745855232452,
+        "stop" : 1745855232789,
+        "duration" : 337
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вход пользователя в систему",
+        "time" : {
+          "start" : 1745855232452,
+          "stop" : 1745855232782,
+          "duration" : 330
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "User(name=uhObsdGTN, email=xkgajfwu@yandex.ru, password=YuoOvAGcUtBnGk, accessToken=null)"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=uhObsdGTN, email=xkgajfwu@yandex.ru, password=YuoOvAGcUtBnGk, accessToken=null)"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Обновление данных авторизованного пользователя",
+      "time" : {
+        "start" : 1745855232789,
+        "stop" : 1745855233122,
+        "duration" : 333
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=IMCoHqIFZjtIgfmpCuMO, email=xkgajfwu@yandex.ru, password=YuoOvAGcUtBnGk, accessToken=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGZhMzAxOWVkMjgwMDAxYjVkN2Q4ZCIsImlhdCI6MTc0NTg1NTIzMywiZXhwIjoxNzQ1ODU2NDMzfQ.5igHVK5Dwks1w3_ESl-qeXl6FMDxlQuTiJpWnuwxqY0)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1745855233134,
+        "stop" : 1745855233892,
+        "duration" : 758
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=IMCoHqIFZjtIgfmpCuMO, email=xkgajfwu@yandex.ru, password=YuoOvAGcUtBnGk, accessToken=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGZhMzAxOWVkMjgwMDAxYjVkN2Q4ZCIsImlhdCI6MTc0NTg1NTIzMywiZXhwIjoxNzQ1ODU2NDMzfQ.5igHVK5Dwks1w3_ESl-qeXl6FMDxlQuTiJpWnuwxqY0)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "usertests"
+  }, {
+    "name" : "testClass",
+    "value" : "usertests.UserDataChangeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldUpdateUserName"
+  }, {
+    "name" : "suite",
+    "value" : "usertests.UserDataChangeTest"
+  }, {
+    "name" : "host",
+    "value" : "JR"
+  }, {
+    "name" : "thread",
+    "value" : "26692@JR.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "477bea90358df1fd.json",
+  "parameterValues" : [ ]
+}

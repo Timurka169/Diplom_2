@@ -1,0 +1,211 @@
+[ {
+  "uid" : "f9ddad23ed811e67",
+  "name" : "Создание заказа с авторизацией и c ингредиентами",
+  "time" : {
+    "start" : 1746416920900,
+    "stop" : 1746416928848,
+    "duration" : 7948
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f697eddf0f1f29",
+  "name" : "Изменение пароля без авторизации",
+  "time" : {
+    "start" : 1746416950015,
+    "stop" : 1746416962296,
+    "duration" : 12281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7994b3bba19ba1ff",
+  "name" : "Создание заказа без авторизации и без ингредиентов",
+  "time" : {
+    "start" : 1746416918868,
+    "stop" : 1746416919071,
+    "duration" : 203
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "97b52433c2516be3",
+  "name" : "Обновление email пользователя",
+  "time" : {
+    "start" : 1746416962301,
+    "stop" : 1746416980542,
+    "duration" : 18241
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc1e0d79c69e3dc5",
+  "name" : "Успешная авторизация пользователя",
+  "time" : {
+    "start" : 1746416985729,
+    "stop" : 1746416986361,
+    "duration" : 632
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7dfd2111046ce08",
+  "name" : "Изменение email без авторизации",
+  "time" : {
+    "start" : 1746416939141,
+    "stop" : 1746416942539,
+    "duration" : 3398
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cd68bae50ba3c0c",
+  "name" : "Обновление пароля пользователя",
+  "time" : {
+    "start" : 1746416937124,
+    "stop" : 1746416939139,
+    "duration" : 2015
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66d13828b03b1c00",
+  "name" : "Создание заказа с авторизацией без ингредиентов",
+  "time" : {
+    "start" : 1746416919080,
+    "stop" : 1746416920896,
+    "duration" : 1816
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6223e2a8ba8b34d7",
+  "name" : "Создание заказа с авторизацией и с неверным хешем ингредиентов",
+  "time" : {
+    "start" : 1746416917004,
+    "stop" : 1746416918865,
+    "duration" : 1861
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a79373173b202651",
+  "name" : "Авторизованный пользователь получает заказ",
+  "time" : {
+    "start" : 1746416929111,
+    "stop" : 1746416935580,
+    "duration" : 6469
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ddce131c9f2d7c94",
+  "name" : "Изменение имени без авторизации",
+  "time" : {
+    "start" : 1746416980547,
+    "stop" : 1746416984462,
+    "duration" : 3915
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d4de67b77b543e7",
+  "name" : "Авторизация с некорректным email",
+  "time" : {
+    "start" : 1746416984468,
+    "stop" : 1746416985066,
+    "duration" : 598
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "282b47b8835096c4",
+  "name" : "Создание нового пользователя",
+  "time" : {
+    "start" : 1746416936800,
+    "stop" : 1746416937121,
+    "duration" : 321
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c29f700df7f6d9d7",
+  "name" : "Авторизация с некорректным паролем",
+  "time" : {
+    "start" : 1746416985068,
+    "stop" : 1746416985727,
+    "duration" : 659
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e6c26f97e64787e",
+  "name" : "Создание пользователя с пустым email",
+  "time" : {
+    "start" : 1746416935586,
+    "stop" : 1746416935809,
+    "duration" : 223
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "690cea54cea2017a",
+  "name" : "Создание заказа без авторизации и с неверным хешем ингредиентов",
+  "time" : {
+    "start" : 1746416916784,
+    "stop" : 1746416917002,
+    "duration" : 218
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5c628852792412c",
+  "name" : "Создание пользователя с пустым паролем",
+  "time" : {
+    "start" : 1746416935811,
+    "stop" : 1746416936202,
+    "duration" : 391
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32f4ed20f1aa584e",
+  "name" : "Не авторизованный пользователь получает заказ",
+  "time" : {
+    "start" : 1746416928850,
+    "stop" : 1746416929109,
+    "duration" : 259
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d572d10715c8066d",
+  "name" : "Создание пользователя с уже зарегистрированным email",
+  "time" : {
+    "start" : 1746416936204,
+    "stop" : 1746416936798,
+    "duration" : 594
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62ad79fcdd974c90",
+  "name" : "Создание заказа без авторизации и c ингредиентами",
+  "time" : {
+    "start" : 1746416913555,
+    "stop" : 1746416916725,
+    "duration" : 3170
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8a4f575ae6c5cd1",
+  "name" : "Обновление имени пользователя",
+  "time" : {
+    "start" : 1746416942542,
+    "stop" : 1746416950013,
+    "duration" : 7471
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

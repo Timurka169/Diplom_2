@@ -1,5 +1,15 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
+# Игнорировать всё в target
+target/*
+
+# Кроме нужных директорий и файлов внутри
+!target/allure-results/
+!target/allure-results/**
+
+!target/site/
+!target/site/allure-maven-plugin/
+!target/site/allure-maven-plugin/**
+
+
 !**/src/main/**/target/
 !**/src/test/**/target/
 
