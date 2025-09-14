@@ -1,0 +1,108 @@
+{
+  "uid" : "32f4ed20f1aa584e",
+  "name" : "Не авторизованный пользователь получает заказ",
+  "fullName" : "ordertests.OrderGetTest.notAuthUserGetOrder",
+  "historyId" : "8e93056a1d4d19ac46e501e10c8f0b17",
+  "time" : {
+    "start" : 1746416928850,
+    "stop" : 1746416929109,
+    "duration" : 259
+  },
+  "description" : "Проверка получение заказа не авторизованным пользователем",
+  "descriptionHtml" : "<p>Проверка получение заказа не авторизованным пользователем</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка получение заказа не авторизованным пользователем",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Отправка запроса на получение заказа для пользователя без авторизации",
+      "time" : {
+        "start" : 1746416928850,
+        "stop" : 1746416929094,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ordertests"
+  }, {
+    "name" : "testClass",
+    "value" : "ordertests.OrderGetTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "notAuthUserGetOrder"
+  }, {
+    "name" : "suite",
+    "value" : "ordertests.OrderGetTest"
+  }, {
+    "name" : "host",
+    "value" : "JR"
+  }, {
+    "name" : "thread",
+    "value" : "25296@JR.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "80694f70424e9fd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1745855223694,
+        "stop" : 1745855223925,
+        "duration" : 231
+      }
+    }, {
+      "uid" : "31298a6ff73eab98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1745855130234,
+        "stop" : 1745855130453,
+        "duration" : 219
+      }
+    }, {
+      "uid" : "9b9c77ba76583c2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1738609717010,
+        "stop" : 1738609717184,
+        "duration" : 174
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32f4ed20f1aa584e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,82 @@
+{
+  "uid" : "9b9c77ba76583c2e",
+  "name" : "Не авторизованный пользователь получает заказ",
+  "fullName" : "ordertests.OrderGetTest.notAuthUserGetOrder",
+  "historyId" : "8e93056a1d4d19ac46e501e10c8f0b17",
+  "time" : {
+    "start" : 1738609717010,
+    "stop" : 1738609717184,
+    "duration" : 174
+  },
+  "description" : "Проверка получение заказа не авторизованным пользователем",
+  "descriptionHtml" : "<p>Проверка получение заказа не авторизованным пользователем</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка получение заказа не авторизованным пользователем",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Отправка запроса на получение заказа для пользователя без авторизации",
+      "time" : {
+        "start" : 1738609717010,
+        "stop" : 1738609717168,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ordertests"
+  }, {
+    "name" : "testClass",
+    "value" : "ordertests.OrderGetTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "notAuthUserGetOrder"
+  }, {
+    "name" : "suite",
+    "value" : "ordertests.OrderGetTest"
+  }, {
+    "name" : "host",
+    "value" : "Alex"
+  }, {
+    "name" : "thread",
+    "value" : "20352@Alex.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b9c77ba76583c2e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,147 @@
+{
+  "uid" : "6d4de67b77b543e7",
+  "name" : "Авторизация с некорректным email",
+  "fullName" : "usertests.UserLoginBaseTest.shouldNotAuthorizeWithInvalidEmail",
+  "historyId" : "33ec8074e345f2cb097db87eb502b787",
+  "time" : {
+    "start" : 1746416984468,
+    "stop" : 1746416985066,
+    "duration" : 598
+  },
+  "description" : "Проверка, что авторизация с неверным email возвращает ошибку 401",
+  "descriptionHtml" : "<p>Проверка, что авторизация с неверным email возвращает ошибку 401</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка, что авторизация с неверным email возвращает ошибку 401",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация случайных данных пользователя",
+      "time" : {
+        "start" : 1746416984468,
+        "stop" : 1746416984468,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=null, email=null, password=null, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Создание нового пользователя",
+      "time" : {
+        "start" : 1746416984468,
+        "stop" : 1746416984835,
+        "duration" : 367
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=bKXuuLjbC, email=capuiwuf@yandex.ru, password=SlkFumfQekYMXY, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Вход пользователя в систему",
+      "time" : {
+        "start" : 1746416984836,
+        "stop" : 1746416985047,
+        "duration" : 211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=bKXuuLjbC, email=ncxzpvkzzyxknstgfdzy@yandex.ru, password=SlkFumfQekYMXY, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "usertests"
+  }, {
+    "name" : "testClass",
+    "value" : "usertests.UserLoginBaseTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldNotAuthorizeWithInvalidEmail"
+  }, {
+    "name" : "suite",
+    "value" : "usertests.UserLoginBaseTest"
+  }, {
+    "name" : "host",
+    "value" : "JR"
+  }, {
+    "name" : "thread",
+    "value" : "25296@JR.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "512b13ae72b4636",
+      "status" : "passed",
+      "time" : {
+        "start" : 1745855239953,
+        "stop" : 1745855240508,
+        "duration" : 555
+      }
+    }, {
+      "uid" : "aaea9ba4399ac425",
+      "status" : "passed",
+      "time" : {
+        "start" : 1745855146032,
+        "stop" : 1745855146593,
+        "duration" : 561
+      }
+    }, {
+      "uid" : "aee307efb48cfa9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1738609728124,
+        "stop" : 1738609728497,
+        "duration" : 373
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d4de67b77b543e7.json",
+  "parameterValues" : [ ]
+}

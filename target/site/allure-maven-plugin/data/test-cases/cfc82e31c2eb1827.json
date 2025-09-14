@@ -1,0 +1,121 @@
+{
+  "uid" : "cfc82e31c2eb1827",
+  "name" : "Успешная авторизация пользователя",
+  "fullName" : "usertests.UserLoginBaseTest.shouldAuthorizeUserSuccessfully",
+  "historyId" : "112cef5a7c9dddf20139aac06005a2e2",
+  "time" : {
+    "start" : 1745855147265,
+    "stop" : 1745855147904,
+    "duration" : 639
+  },
+  "description" : "Проверка, что пользователь может успешно авторизоваться с корректными данными",
+  "descriptionHtml" : "<p>Проверка, что пользователь может успешно авторизоваться с корректными данными</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка, что пользователь может успешно авторизоваться с корректными данными",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация случайных данных пользователя",
+      "time" : {
+        "start" : 1745855147265,
+        "stop" : 1745855147265,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=null, email=null, password=null, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Создание нового пользователя",
+      "time" : {
+        "start" : 1745855147265,
+        "stop" : 1745855147587,
+        "duration" : 322
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=sknqplLwz, email=pxlxogbe@yandex.ru, password=HMmhQmTKjgPeOB, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Вход пользователя в систему",
+      "time" : {
+        "start" : 1745855147588,
+        "stop" : 1745855147897,
+        "duration" : 309
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=sknqplLwz, email=pxlxogbe@yandex.ru, password=HMmhQmTKjgPeOB, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "usertests"
+  }, {
+    "name" : "testClass",
+    "value" : "usertests.UserLoginBaseTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldAuthorizeUserSuccessfully"
+  }, {
+    "name" : "suite",
+    "value" : "usertests.UserLoginBaseTest"
+  }, {
+    "name" : "host",
+    "value" : "JR"
+  }, {
+    "name" : "thread",
+    "value" : "22424@JR.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cfc82e31c2eb1827.json",
+  "parameterValues" : [ ]
+}

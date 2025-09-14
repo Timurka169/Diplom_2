@@ -1,0 +1,214 @@
+{
+  "uid" : "d5d544971bd6ec6d",
+  "name" : "Создание заказа с авторизацией и с неверным хешем ингредиентов",
+  "fullName" : "ordertests.OrderCreationTest.createOrderWithInvalidHashIngredientAuthUser",
+  "historyId" : "7856886e934df4967c38fecced20aa6f",
+  "time" : {
+    "start" : 1738609710436,
+    "stop" : 1738609711853,
+    "duration" : 1417
+  },
+  "description" : "Проверка создания заказа с авторизацией и с неверным хешем ингредиентов",
+  "descriptionHtml" : "<p>Проверка создания заказа с авторизацией и с неверным хешем ингредиентов</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка создания заказа с авторизацией и с неверным хешем ингредиентов",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация случайных данных пользователя",
+      "time" : {
+        "start" : 1738609710443,
+        "stop" : 1738609710443,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=null, email=null, password=null, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Создание нового пользователя",
+      "time" : {
+        "start" : 1738609710444,
+        "stop" : 1738609710679,
+        "duration" : 235
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=qifbFrDYy, email=sajwuido@yandex.ru, password=cZRLojwQhhwwhS, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Вход пользователя в систему",
+      "time" : {
+        "start" : 1738609710679,
+        "stop" : 1738609710912,
+        "duration" : 233
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=qifbFrDYy, email=sajwuido@yandex.ru, password=cZRLojwQhhwwhS, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Получение токена авторизации",
+      "time" : {
+        "start" : 1738609710913,
+        "stop" : 1738609711143,
+        "duration" : 230
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вход пользователя в систему",
+        "time" : {
+          "start" : 1738609710913,
+          "stop" : 1738609711132,
+          "duration" : 219
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "User(name=qifbFrDYy, email=sajwuido@yandex.ru, password=cZRLojwQhhwwhS, accessToken=null)"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=qifbFrDYy, email=sajwuido@yandex.ru, password=cZRLojwQhhwwhS, accessToken=null)"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Добавить в заказ некорректный список ингредиентов",
+      "time" : {
+        "start" : 1738609711143,
+        "stop" : 1738609711143,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "Order(ingredients=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Отправка запроса на создание заказа для авторизованного пользователя",
+      "time" : {
+        "start" : 1738609711144,
+        "stop" : 1738609711298,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "Order(ingredients=[Ibr, SSl, jEz])"
+      }, {
+        "name" : "user",
+        "value" : "User(name=qifbFrDYy, email=sajwuido@yandex.ru, password=cZRLojwQhhwwhS, accessToken=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3YTExNDMwOWVkMjgwMDAxYjU2MTAzYyIsImlhdCI6MTczODYwOTcxMiwiZXhwIjoxNzM4NjEwOTEyfQ.LtykgiY9Ujigtty_5gyDtegf6_4UOQ-dtzG7cjLyDGU)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1738609711299,
+        "stop" : 1738609711853,
+        "duration" : 554
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=qifbFrDYy, email=sajwuido@yandex.ru, password=cZRLojwQhhwwhS, accessToken=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3YTExNDMwOWVkMjgwMDAxYjU2MTAzYyIsImlhdCI6MTczODYwOTcxMiwiZXhwIjoxNzM4NjEwOTEyfQ.LtykgiY9Ujigtty_5gyDtegf6_4UOQ-dtzG7cjLyDGU)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ordertests"
+  }, {
+    "name" : "testClass",
+    "value" : "ordertests.OrderCreationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithInvalidHashIngredientAuthUser"
+  }, {
+    "name" : "suite",
+    "value" : "ordertests.OrderCreationTest"
+  }, {
+    "name" : "host",
+    "value" : "Alex"
+  }, {
+    "name" : "thread",
+    "value" : "20352@Alex.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5d544971bd6ec6d.json",
+  "parameterValues" : [ ]
+}

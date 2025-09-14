@@ -1,0 +1,219 @@
+{
+  "uid" : "d7dfd2111046ce08",
+  "name" : "Изменение email без авторизации",
+  "fullName" : "usertests.UserDataChangeTest.shouldNotUpdateEmailWithoutAuth",
+  "historyId" : "8df09c85f44042a8d63aefbdd31c4d3f",
+  "time" : {
+    "start" : 1746416939141,
+    "stop" : 1746416942539,
+    "duration" : 3398
+  },
+  "description" : "Проверяет, что изменение email без авторизации возвращает ошибку 401",
+  "descriptionHtml" : "<p>Проверяет, что изменение email без авторизации возвращает ошибку 401</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяет, что изменение email без авторизации возвращает ошибку 401",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация случайных данных пользователя",
+      "time" : {
+        "start" : 1746416939141,
+        "stop" : 1746416939141,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=null, email=null, password=null, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Создание нового пользователя",
+      "time" : {
+        "start" : 1746416939141,
+        "stop" : 1746416939461,
+        "duration" : 320
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=OrWgnziJN, email=wklmyihp@yandex.ru, password=kOtifJcGwsJYYV, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Вход пользователя в систему",
+      "time" : {
+        "start" : 1746416939461,
+        "stop" : 1746416939939,
+        "duration" : 478
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=OrWgnziJN, email=wklmyihp@yandex.ru, password=kOtifJcGwsJYYV, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Получение токена авторизации",
+      "time" : {
+        "start" : 1746416939940,
+        "stop" : 1746416940373,
+        "duration" : 433
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вход пользователя в систему",
+        "time" : {
+          "start" : 1746416939940,
+          "stop" : 1746416940365,
+          "duration" : 425
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "User(name=OrWgnziJN, email=wklmyihp@yandex.ru, password=kOtifJcGwsJYYV, accessToken=null)"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=OrWgnziJN, email=wklmyihp@yandex.ru, password=kOtifJcGwsJYYV, accessToken=null)"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Обновление данных неавторизованного пользователя",
+      "time" : {
+        "start" : 1746416940373,
+        "stop" : 1746416941126,
+        "duration" : 753
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=OrWgnziJN, email=dsymawmlpymjfmuzakzo@yandex.ru, password=kOtifJcGwsJYYV, accessToken=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MTgzNTJjOWVkMjgwMDAxYjVkYzNjNiIsImlhdCI6MTc0NjQxNjk0MCwiZXhwIjoxNzQ2NDE4MTQwfQ.TuDbbPWa3G45Lu6Ao_Ale8N7BlyZXH8K3HLpe7qe5Ak)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1746416941143,
+        "stop" : 1746416942539,
+        "duration" : 1396
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=OrWgnziJN, email=dsymawmlpymjfmuzakzo@yandex.ru, password=kOtifJcGwsJYYV, accessToken=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MTgzNTJjOWVkMjgwMDAxYjVkYzNjNiIsImlhdCI6MTc0NjQxNjk0MCwiZXhwIjoxNzQ2NDE4MTQwfQ.TuDbbPWa3G45Lu6Ao_Ale8N7BlyZXH8K3HLpe7qe5Ak)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "usertests"
+  }, {
+    "name" : "testClass",
+    "value" : "usertests.UserDataChangeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldNotUpdateEmailWithoutAuth"
+  }, {
+    "name" : "suite",
+    "value" : "usertests.UserDataChangeTest"
+  }, {
+    "name" : "host",
+    "value" : "JR"
+  }, {
+    "name" : "thread",
+    "value" : "25296@JR.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "63e688282aee5ba6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1745855229778,
+        "stop" : 1745855231787,
+        "duration" : 2009
+      }
+    }, {
+      "uid" : "85d0b4811165f6cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1745855136144,
+        "stop" : 1745855138217,
+        "duration" : 2073
+      }
+    }, {
+      "uid" : "510f326f9645368d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1738609721159,
+        "stop" : 1738609722506,
+        "duration" : 1347
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d7dfd2111046ce08.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,103 @@
+{
+  "uid" : "e43d8b6aaff141a5",
+  "name" : "Создание пользователя с пустым паролем",
+  "fullName" : "usertests.UserCreationTest.shouldNotCreateUserWithEmptyPassword",
+  "historyId" : "5056ffbf3c751819c7d9c286d0cece6d",
+  "time" : {
+    "start" : 1745855226507,
+    "stop" : 1745855226737,
+    "duration" : 230
+  },
+  "description" : "Тест проверяет, что создание пользователя с пустым паролем возвращает ошибку 403",
+  "descriptionHtml" : "<p>Тест проверяет, что создание пользователя с пустым паролем возвращает ошибку 403</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Тест проверяет, что создание пользователя с пустым паролем возвращает ошибку 403",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация случайных данных пользователя",
+      "time" : {
+        "start" : 1745855226507,
+        "stop" : 1745855226507,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=null, email=null, password=null, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Создание нового пользователя",
+      "time" : {
+        "start" : 1745855226507,
+        "stop" : 1745855226729,
+        "duration" : 222
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=ANtrkkqjO, email=uqticcvc@yandex.ru, password=, accessToken=null)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "usertests"
+  }, {
+    "name" : "testClass",
+    "value" : "usertests.UserCreationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldNotCreateUserWithEmptyPassword"
+  }, {
+    "name" : "suite",
+    "value" : "usertests.UserCreationTest"
+  }, {
+    "name" : "host",
+    "value" : "JR"
+  }, {
+    "name" : "thread",
+    "value" : "26692@JR.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e43d8b6aaff141a5.json",
+  "parameterValues" : [ ]
+}

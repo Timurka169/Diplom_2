@@ -1,0 +1,298 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "ordertests.OrderCreationTest",
+    "children" : [ {
+      "name" : "Создание заказа без авторизации и c ингредиентами",
+      "uid" : "62ad79fcdd974c90",
+      "parentUid" : "8b69b61e223bc7d5a4077a5760a20566",
+      "status" : "failed",
+      "time" : {
+        "start" : 1746416913555,
+        "stop" : 1746416916725,
+        "duration" : 3170
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание заказа без авторизации и с неверным хешем ингредиентов",
+      "uid" : "690cea54cea2017a",
+      "parentUid" : "8b69b61e223bc7d5a4077a5760a20566",
+      "status" : "failed",
+      "time" : {
+        "start" : 1746416916784,
+        "stop" : 1746416917002,
+        "duration" : 218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание заказа с авторизацией и с неверным хешем ингредиентов",
+      "uid" : "6223e2a8ba8b34d7",
+      "parentUid" : "8b69b61e223bc7d5a4077a5760a20566",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746416917004,
+        "stop" : 1746416918865,
+        "duration" : 1861
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание заказа без авторизации и без ингредиентов",
+      "uid" : "7994b3bba19ba1ff",
+      "parentUid" : "8b69b61e223bc7d5a4077a5760a20566",
+      "status" : "failed",
+      "time" : {
+        "start" : 1746416918868,
+        "stop" : 1746416919071,
+        "duration" : 203
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание заказа с авторизацией без ингредиентов",
+      "uid" : "66d13828b03b1c00",
+      "parentUid" : "8b69b61e223bc7d5a4077a5760a20566",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746416919080,
+        "stop" : 1746416920896,
+        "duration" : 1816
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание заказа с авторизацией и c ингредиентами",
+      "uid" : "f9ddad23ed811e67",
+      "parentUid" : "8b69b61e223bc7d5a4077a5760a20566",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746416920900,
+        "stop" : 1746416928848,
+        "duration" : 7948
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8b69b61e223bc7d5a4077a5760a20566"
+  }, {
+    "name" : "ordertests.OrderGetTest",
+    "children" : [ {
+      "name" : "Не авторизованный пользователь получает заказ",
+      "uid" : "32f4ed20f1aa584e",
+      "parentUid" : "2252aadeec97bc6d302392dfafa9d7a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746416928850,
+        "stop" : 1746416929109,
+        "duration" : 259
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизованный пользователь получает заказ",
+      "uid" : "a79373173b202651",
+      "parentUid" : "2252aadeec97bc6d302392dfafa9d7a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746416929111,
+        "stop" : 1746416935580,
+        "duration" : 6469
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2252aadeec97bc6d302392dfafa9d7a7"
+  }, {
+    "name" : "usertests.UserCreationTest",
+    "children" : [ {
+      "name" : "Создание пользователя с пустым email",
+      "uid" : "2e6c26f97e64787e",
+      "parentUid" : "7abfa358922ea738eeab56c939611d03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746416935586,
+        "stop" : 1746416935809,
+        "duration" : 223
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание пользователя с пустым паролем",
+      "uid" : "a5c628852792412c",
+      "parentUid" : "7abfa358922ea738eeab56c939611d03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746416935811,
+        "stop" : 1746416936202,
+        "duration" : 391
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание пользователя с уже зарегистрированным email",
+      "uid" : "d572d10715c8066d",
+      "parentUid" : "7abfa358922ea738eeab56c939611d03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746416936204,
+        "stop" : 1746416936798,
+        "duration" : 594
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание нового пользователя",
+      "uid" : "282b47b8835096c4",
+      "parentUid" : "7abfa358922ea738eeab56c939611d03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746416936800,
+        "stop" : 1746416937121,
+        "duration" : 321
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7abfa358922ea738eeab56c939611d03"
+  }, {
+    "name" : "usertests.UserDataChangeTest",
+    "children" : [ {
+      "name" : "Обновление пароля пользователя",
+      "uid" : "6cd68bae50ba3c0c",
+      "parentUid" : "c38385c642057c5ba6448e0e5a47b63d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746416937124,
+        "stop" : 1746416939139,
+        "duration" : 2015
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Изменение email без авторизации",
+      "uid" : "d7dfd2111046ce08",
+      "parentUid" : "c38385c642057c5ba6448e0e5a47b63d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746416939141,
+        "stop" : 1746416942539,
+        "duration" : 3398
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Обновление имени пользователя",
+      "uid" : "d8a4f575ae6c5cd1",
+      "parentUid" : "c38385c642057c5ba6448e0e5a47b63d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746416942542,
+        "stop" : 1746416950013,
+        "duration" : 7471
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Изменение пароля без авторизации",
+      "uid" : "2f697eddf0f1f29",
+      "parentUid" : "c38385c642057c5ba6448e0e5a47b63d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746416950015,
+        "stop" : 1746416962296,
+        "duration" : 12281
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Обновление email пользователя",
+      "uid" : "97b52433c2516be3",
+      "parentUid" : "c38385c642057c5ba6448e0e5a47b63d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746416962301,
+        "stop" : 1746416980542,
+        "duration" : 18241
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Изменение имени без авторизации",
+      "uid" : "ddce131c9f2d7c94",
+      "parentUid" : "c38385c642057c5ba6448e0e5a47b63d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746416980547,
+        "stop" : 1746416984462,
+        "duration" : 3915
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c38385c642057c5ba6448e0e5a47b63d"
+  }, {
+    "name" : "usertests.UserLoginBaseTest",
+    "children" : [ {
+      "name" : "Авторизация с некорректным email",
+      "uid" : "6d4de67b77b543e7",
+      "parentUid" : "9889b1d3e977a4b0e30ebf518845e9d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746416984468,
+        "stop" : 1746416985066,
+        "duration" : 598
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация с некорректным паролем",
+      "uid" : "c29f700df7f6d9d7",
+      "parentUid" : "9889b1d3e977a4b0e30ebf518845e9d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746416985068,
+        "stop" : 1746416985727,
+        "duration" : 659
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешная авторизация пользователя",
+      "uid" : "dc1e0d79c69e3dc5",
+      "parentUid" : "9889b1d3e977a4b0e30ebf518845e9d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746416985729,
+        "stop" : 1746416986361,
+        "duration" : 632
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9889b1d3e977a4b0e30ebf518845e9d6"
+  } ]
+}
